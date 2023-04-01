@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  height: 75px;
+  color: #40513b;
+  font-weight: 550;
+  z-index: 3;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  z-index: 4;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #40513b;
+}
+
+.list {
+  color: #40513b;
+  text-decoration: none;
+}
+
+.img {
+  width: 100px;
+  /* margin-left: -10px;/ */
+}
+

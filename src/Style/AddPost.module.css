@@ -1,0 +1,130 @@
+/* Add Post page */
+
+.addPost {
+  display: flex;
+  align-items: flex-start;
+  background-color: #9dc08b;
+  height: 460px;
+  width: 770px;
+  margin: 0 auto;
+  z-index: 10;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #40513b;
+  margin: 50px 0 35px;
+}
+
+.postHead {
+  margin: 50px 0 25px;
+}
+
+.pooost {
+  display: flex;
+  gap: 70px;
+}
+
+.imggg {
+  height: 270px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.postBtn {
+  margin-top: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: #40513b;
+  border: none;
+  border-radius: 22px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.postBtn:hover {
+  background-color: #4c5f46;
+  color: #f3f6e8;
+}
+
+.postPara {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(112, 112, 112);
+  width: 300px;
+  line-height: 1.3rem;
+}
+
+.postCloseBtn {
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.postClose {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: #40513b;
+  color: #9dc08b;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+textarea {
+  width: 250px;
+  height: 20px;
+  outline: none;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+textarea::placeholder {
+  font-size: 15px;
+  /* margin-top: 30px; */
+  color: rgb(182, 182, 182);
+}
+
+textarea:focus {
+  border: 2px solid #40513b;
+}
+
+.postError {
+  color: red;
+  font-size: 16px;
+}
+
+.notDisplay {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.dis {
+  color: black;
+}

@@ -1,0 +1,90 @@
+.ii {
+  margin-top: 100px;
+}
+
+.blogImg {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.date {
+  color: rgb(150, 150, 150);
+  /* margin-right: 5px; */
+}
+
+.profilePara {
+  font-size: 18px;
+  width: 400px;
+  margin-bottom: 15px;
+  line-height: 1.8rem;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(189, 181, 181);
+  width: 850px;
+  height: 260px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contain:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px lightgrey;
+}
+
+.contain2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bttns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+}
+
+.view,
+.edit,
+.delete {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+
+.edit {
+  background-color: rgb(41, 140, 197);
+}
+
+.delete {
+  background-color: rgb(250, 35, 35);
+}
+
+.view {
+  background-color: rgb(54, 137, 54);
+}
+
+.editing {
+  margin-top: 40px;
+}

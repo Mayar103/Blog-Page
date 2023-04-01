@@ -1,0 +1,43 @@
+.errorBtn {
+  width: 160px;
+  background-color: #40513b;
+  height: 55px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.errorBtn:hover {
+  background-color: #4c5f46;
+  color: #f3f6e8;
+}
+
+.errorHead {
+  width: 370px;
+  margin: 140px 0 35px;
+  font-size: 35px;
+  line-height: 2.8rem;
+}
+
+.errorContent {
+  margin-top: 70px;
+}
+
+.errorHead {
+  margin-bottom: 35px;
+  width: 500px;
+}
+
+.errorPage {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.errorImg {
+  width: 600px;
+  margin-top: 130px;
+}

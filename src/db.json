@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "email": "mayar@gmail.com",
+      "password": "$2a$10$GXyUmme5opir0kQKCVECCOZwuj8ArImKO5GQ1EvmnmQE1xFVYF76i",
+      "username": "mayar mohamed",
+      "gender": "female",
+      "id": 1
+    },
+    {
+      "email": "mohab@gmail.com",
+      "password": "$2a$10$a4AQDLcD9uj5EIiOpFTHQul3vZKtUO4upXyRF.JnWR6C5LwhDAP3K",
+      "username": "mohab mohamed",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "email": "moaaz@gmail.com",
+      "password": "$2a$10$RA59StZdKIkHF4CZt/W/5.nJTqasqlOrh1HoLOwD.eDzD9s87QwDC",
+      "username": "moaaz",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "email": "mahetab@gmail.com",
+      "password": "$2a$10$0bReKpu2eKNddSqVd4yq9O1geHrI5w0eZiLKi.OxKrLEszKZ2wdNC",
+      "username": "mahetab mohamed",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "email": "toqa@gmail.com",
+      "password": "$2a$10$/p7RTWiiV0t/ukZEQF2Dg.d7SNKbcbD475jSeTUS4mamwSxj7ZZ0i",
+      "username": "Toqa Maher",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "email": "rania@gmail.com",
+      "password": "$2a$10$N4CHqdRpevQU/oF/N6c0SuhxylbOn0wp6NZ5RAfGL3Daq764uAhGq",
+      "username": "Rania Atef",
+      "gender": "female",
+      "id": 6
+    },
+    {
+      "email": "mai@gmail.com",
+      "password": "$2a$10$OAwnDh08ljrgH7QLheY7Ae88CePv7BoWLyeGrXPqvC4SKpeBFmAXW",
+      "username": "mai mostafa",
+      "gender": "female",
+      "id": 7
+    },
+    {
+      "email": "donia@gmail.com",
+      "password": "$2a$10$YpFkWKRmmd19RwwDkkgKQOvt7tYfY62IUM1knT1.u8qgElLaqnuhu",
+      "username": "donia mohamed",
+      "gender": "female",
+      "id": 8
+    },
+    {
+      "email": "youssef@gmail.com",
+      "password": "$2a$10$4m6oQvnkD3sHKCCmH9ULbuIESC52VXEld32dOFUwNMzti5Ndx2yM2",
+      "username": "youssef",
+      "gender": "male",
+      "id": 9
+    }
+  ]
+}

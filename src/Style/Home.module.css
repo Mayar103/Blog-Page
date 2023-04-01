@@ -1,0 +1,98 @@
+.homeBtn,
+.homeBtn1 {
+  width: 160px;
+  background-color: #f3f6e8;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  transition: background-position 0.3s ease;
+}
+
+.homeBtn {
+  border: 2px solid #40513b;
+}
+
+.homeBtn:hover,
+.homeBtn1:hover {
+  background-image: linear-gradient(to right, #f3f6e8, #9dc08b);
+  background-position: -100% 50%;
+  border: none;
+}
+
+.homeBtn1 {
+  margin-left: 25px;
+  border: none;
+  text-transform: uppercase;
+  width: 170px;
+}
+
+.homePara {
+  width: 380px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: rgb(81, 81, 81);
+}
+
+.green {
+  width: 90px;
+  height: 25px;
+  margin: 115px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9dc08b;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  gap: 280px;
+}
+
+.back {
+  width: 360px;
+  height: 390px;
+  border-radius: 10px;
+  margin-top: 130px;
+  background-color: #9dc08b;
+  display: flex;
+  position: relative;
+}
+
+.imgh {
+  height: 330px;
+  width: 290px;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.im {
+  height: 320px;
+  width: 270px;
+  background-color: #40513b;
+  position: absolute;
+  top: -32px;
+  left: 55px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.homeHead {
+  width: 400px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 3.7rem;
+  text-transform: capitalize;
+  color: #40513b;
+}

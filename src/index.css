@@ -1,0 +1,68 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f3f6e8;
+}
+
+p {
+  width: 440px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 2rem;
+}
+
+input {
+  width: 250px;
+  height: 45px;
+  margin: 7px 0 10px;
+  outline: none;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 0 16px;
+}
+
+input:focus {
+  border: 2px solid #40513b;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: rgb(182, 182, 182);
+}
+
+.search {
+  width: 100px;
+  height: 47px;
+  border: 2px solid #40513b;
+  border-radius: 0 5px 5px 0;
+  background-color: #40513b;
+  color: #f3f6e8;
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #497a4e;
+  border: 2px solid #497a4e;
+}
+
+.searchInp {
+  width: 250px;
+  height: 43px;
+
+  border: 2px solid #40513b;
+  border-radius: 5px 0 0 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
