@@ -12,12 +12,12 @@ body {
   background-color: #f3f6e8;
 }
 
-p {
+/* p {
   width: 440px;
   margin-bottom: 30px;
   font-size: 22px;
   line-height: 2rem;
-}
+} */
 
 input {
   width: 250px;

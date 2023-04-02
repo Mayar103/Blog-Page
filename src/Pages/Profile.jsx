@@ -4,7 +4,7 @@ import axios from "axios";
 import AuthService from "../Services/auth";
 import styles from "../Style/Profile.module.css";
 
-function Profile(props) {
+function Profile() {
   const [posts, setPosts] = useState([]);
 
   const navigate = useNavigate();
@@ -53,8 +53,8 @@ function Profile(props) {
                       {localStorage.getItem("userToken") &&
                       post?.authorName === AuthService.getUser() ? (
                         <div key={post?.id}>
-                          <h5>{props.posts.title}</h5>
-                          <p>{props.posts.content}</p>
+                          <h5>{posts.title}</h5>
+                          <p>{posts.content}</p>
                           <div className={styles.bttns}>
                             <button onClick={goToBlog} className={styles.view}>
                               View

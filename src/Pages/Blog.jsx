@@ -84,12 +84,11 @@ function Blog() {
       <div className={styles.con}>
         <div>
           <h2 className={styles.blogHead}>
-            World population grows, so does our impact on the environment.
+            World population grows, like our impact on the environment.
           </h2>
           <p className={styles.blogPara}>
-            Our actions are taking a toll on the planet we call home. It's time
-            to take action will help us protect the environment for future
-            generations..
+            Our actions are taking a toll on the planet. It's time to take
+            action to protect the environment..
           </p>
         </div>
         <div>
@@ -148,7 +147,7 @@ function Blog() {
                     ""
                   )}
                 </div>
-                <p className={styles.blogPara}>{post?.content}</p>
+                <p className={styles.blogParagraph}>{post?.content}</p>
                 {post?.id === editingPostId ? (
                   <div>
                     {editingPostId && (

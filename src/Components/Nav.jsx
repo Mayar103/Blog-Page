@@ -38,17 +38,19 @@ function Nav() {
         {localStorage.getItem("userToken") ? (
           <li onClick={handleLogout}>Logout</li>
         ) : (
-          <li>
-            <Link to="/formikLogin" className={styles.list}>
-              Login
-            </Link>
-          </li>
+          <ul>
+            <li>
+              <Link to="/formikLogin" className={styles.list}>
+                Login
+              </Link>
+            </li>
+            <li>
+              <Link to="/signupForm" className={styles.list}>
+                Signup
+              </Link>
+            </li>
+          </ul>
         )}
-        <li>
-          <Link to="/signupForm" className={styles.list}>
-            Signup
-          </Link>
-        </li>
       </ul>
       <ul>
         {localStorage.getItem("userToken") ? (

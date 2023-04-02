@@ -33,11 +33,8 @@ function LoginForm() {
         navigate("/");
       })
       .catch((err) => {
-        // console.error(err);
         confirm("Invalid username or password");
-        // setStatus(err.message);
       });
-    // console.log(values);
 
     setSubmitting(false);
   };
@@ -49,10 +46,10 @@ function LoginForm() {
           src={"../src/assets/Images/Login/login.png"}
           className={styles.loginImg}
         />
-        <h3 className={styles.head}>Lorem ipsum dolor consectetur.</h3>
+        <h3 className={styles.head}>You're a key to protect environment</h3>
         <p className={styles.paragraph}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet
-          adipisicing elit sit amet consectetur.
+          Moving away from a meat-dominated diet towards a more plant-based diet
+          can lower your impact on the environment.
         </p>
         <div className={styles.icons}>
           <p className={styles.icon1}></p>

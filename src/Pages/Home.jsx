@@ -5,7 +5,7 @@ function Home() {
   const navigate = useNavigate();
 
   const goToSignUp = () => {
-    navigate("/signup");
+    navigate("/signupForm");
   };
 
   const goToBlog = () => {

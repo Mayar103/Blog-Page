@@ -53,10 +53,10 @@ function SignupForm({ setUser }) {
           className={styles.loginImg}
           src={"../src/assets/Images/Signup/signup.png"}
         />
-        <h3 className={styles.head}>Lorem ipsum dolor consectetur.</h3>
+        <h3 className={styles.head}>Join us to protect the environment</h3>
         <p className={styles.paragraph}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet
-          adipisicing elit sit amet consectetur.
+          Pollution and environmental devastation have contributed to global
+          warming..
         </p>
         <div className={styles.icons}>
           <p className={styles.icon1}></p>

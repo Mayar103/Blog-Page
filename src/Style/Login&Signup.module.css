@@ -67,6 +67,7 @@
   justify-content: center;
   align-items: center;
   color: rgb(112, 112, 112);
+  margin: 20px;
 }
 
 .loginAccount {
@@ -99,6 +100,7 @@
 .icons {
   display: flex;
   gap: 5px;
+  margin-bottom: 30px;
 }
 
 .icon {

@@ -3,7 +3,7 @@
 .blogCard {
   border: 1px solid rgb(189, 181, 181);
   width: 345px;
-  height: 440px;
+  height: 425px;
   margin: 0 auto;
   border-radius: 5px;
   margin-bottom: 50px;
@@ -24,9 +24,17 @@
 
 .blogPara {
   margin-top: 10px;
-  width: 325px;
-  line-height: 1.4rem;
-  font-size: 18px;
+  width: 370px;
+  line-height: 1.5rem;
+  font-size: 20px;
+  font-weight: 540;
+}
+
+.blogParagraph {
+  width: 320px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5rem;
   margin-left: 15px;
 }
 
@@ -79,8 +87,8 @@
 }
 
 .blogHead {
-  font-size: 45px;
-  width: 520px;
+  font-size: 50px;
+  width: 460px;
   margin-bottom: 18px;
   text-transform: capitalize;
 }

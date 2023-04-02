@@ -62,6 +62,13 @@
       "username": "youssef",
       "gender": "male",
       "id": 9
+    },
+    {
+      "email": "nada@gmail.com",
+      "password": "$2a$10$KpBtjlMMf695tkZKlrEGaekXGaSlbMwFBMaPKQIdeo5DHhUXtZWbi",
+      "username": "nada",
+      "gender": "female",
+      "id": 10
     }
   ]
 }

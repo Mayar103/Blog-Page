@@ -14,17 +14,6 @@ function AddPost(props) {
     date: "",
   });
 
-  const remove = () => {
-    setDisplay(false);
-  };
-  let dis;
-
-  // if (display) {
-  //   dis = styles.notDisplay;
-  // } else {
-  //   dis = styles.display;
-  // }
-
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -66,8 +55,6 @@ function AddPost(props) {
   const onChangePostImg = (e) => {
     console.log(e.target.files[0]);
     setImage(e.target.files[0]);
-    // const newErrors = { ...errors };
-    // delete newErrors.postImg;
   };
 
   return (
@@ -98,23 +85,12 @@ function AddPost(props) {
             type={"file"}
             name="img"
             placeholder={"Upload img"}
-            // value={post.img}
             onChange={onChangePostImg}
             required
           />
-          <button
-            className={styles.postBtn}
-            // className={dis}
-            // {display ? className= styles.notDisplay : ""}
-
-            // className={display ? styles.notDisplay : styles.display}
-            // type="submit"
-            // onClick={remove}
-          >
-            Confirm
-          </button>
+          <button className={styles.postBtn}>Confirm</button>
           <p className={styles.postPara}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Add post and share your experience in saving environment
           </p>
         </form>
       </div>
